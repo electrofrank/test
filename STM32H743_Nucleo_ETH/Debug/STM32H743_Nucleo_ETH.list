@@ -12397,9 +12397,9 @@ void MX_LWIP_Init(void)
  80049be:	4b95      	ldr	r3, [pc, #596]	; (8004c14 <MX_LWIP_Init+0x268>)
  80049c0:	2201      	movs	r2, #1
  80049c2:	709a      	strb	r2, [r3, #2]
-  IP_ADDRESS[3] = 104;
+  IP_ADDRESS[3] = 10;
  80049c4:	4b93      	ldr	r3, [pc, #588]	; (8004c14 <MX_LWIP_Init+0x268>)
- 80049c6:	2268      	movs	r2, #104	; 0x68
+ 80049c6:	220a      	movs	r2, #10
  80049c8:	70da      	strb	r2, [r3, #3]
   NETMASK_ADDRESS[0] = 255;
  80049ca:	4b93      	ldr	r3, [pc, #588]	; (8004c18 <MX_LWIP_Init+0x26c>)
